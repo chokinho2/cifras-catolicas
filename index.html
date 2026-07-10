@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="1600 Cifras Católicas — a biblioteca completa de cifras para a Santa Missa, organizadas por momento litúrgico. Acesse do celular, tablet ou computador e toque com segurança em qualquer celebração." />
+  <title>1600 Cifras Católicas — Todas as Cifras da Missa em Um Só Lugar</title>
+
+  <!-- Resource hints (performance) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://pay.hotmart.com" />
+  <link rel="dns-prefetch" href="https://pay.hotmart.com" />
+  <link rel="dns-prefetch" href="https://randomuser.me" />
+
+  <!-- Preload LCP (capa do hero) -->
+  <link rel="preload" as="image"
+        imagesrcset="capa-768.jpg 768w, capa.jpg 1536w"
+        imagesizes="(max-width: 640px) 100vw, 672px"
+        fetchpriority="high" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Manrope', sans-serif; color: #111; }
+    h1, h2, h3, h4 { font-family: 'Inter', sans-serif; }
+    .hero-gradient { background: linear-gradient(180deg, #FAF7F0 0%, #EAF0F8 100%); }
+    .cta-pulse { animation: pulse 2s infinite; }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 12px 24px rgba(21,128,61,0.35); }
+      50%      { transform: scale(1.03); box-shadow: 0 16px 32px rgba(21,128,61,0.5); }
+    }
+    .pill { border-radius: 180px; }
+    .chord { font-family: 'Inter', monospace; letter-spacing: 0.06em; }
+  </style>
+
+  <!--
+    ============================================================
+    TODO ANTES DE PUBLICAR:
+    1. UTMify: inserir o pixelId do NOVO produto
+    2. Checkout: substituir o href="#oferta" do botão principal
+       pelo link real do checkout Hotmart deste produto
+    ============================================================
+  -->
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1320420566472058');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1320420566472058&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<body class="bg-white antialiased">
+
+  <!-- ===================== 1. HERO ===================== -->
+  <section class="hero-gradient pt-12 pb-20 px-5 flex flex-col items-center text-center">
+    <span class="bg-primary text-white pill px-4 py-2.5 text-sm sm:text-base font-semibold inline-flex items-center gap-2">
+      <span aria-hidden="true">🎸</span> FEITO POR MÚSICOS CATÓLICOS, PARA MÚSICOS CATÓLICOS
+    </span>
+
+    <h1 class="font-heading font-extrabold uppercase text-primary tracking-tightx max-w-4xl mt-8
+               text-[34px] leading-[1.05] sm:text-[44px] md:text-[54px] lg:text-[60px] lg:leading-[1]">
+      Mais de <span class="text-secondary">1.600 Cifras Católicas</span> Organizadas Por Momento da Missa — Na Palma da Sua Mão
+    </h1>
+
+    <p class="italic font-bold text-[#242424] mt-6 text-lg sm:text-xl">
+      Da entrada ao canto final: encontre a cifra certa em segundos, não em horas
+    </p>
+
+    <p class="max-w-2xl mt-6 text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+      Chega de caçar cifras espalhadas em sites, prints e cadernos rasgados.
+      Receba a biblioteca completa, <strong>organizada por categoria litúrgica</strong>,
+      pronta para abrir no celular, tablet ou computador.
+    </p>
+
+    <!-- Capa do produto -->
+    <div class="mt-10 w-full max-w-2xl">
+      <img src="capa.jpg"
+           srcset="capa-768.jpg 768w, capa.jpg 1536w"
+           sizes="(max-width: 640px) 100vw, 672px"
+           alt="1600 Cifras Católicas — para todos os momentos da Santa Missa e além"
+           width="1536" height="1024"
+           class="w-full h-auto rounded-2xl shadow-soft"
+           loading="eager" fetchpriority="high" decoding="async" />
+    </div>
+
+    <a href="#oferta"
+       class="cta-pulse inline-block mt-12 bg-success hover:bg-successdark text-white font-bold uppercase
+              rounded-xl px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
+      QUERO AS 1.600 CIFRAS AGORA
+    </a>
+
+    <p class="mt-4 text-sm text-[#1F1F1F]/70">
+      Acesso imediato após a compra • Garantia incondicional de 7 dias
+    </p>
+  </section>
+
+  <!-- ===================== 2. BENEFÍCIOS PRINCIPAIS ===================== -->
+  <section class="bg-white py-20 px-5">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="font-heading font-extrabold uppercase text-[#242424] tracking-tightx text-center
+                 text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
+        O que muda no seu ministério a partir de hoje
+      </h2>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mt-14">
+        <!-- Relógio: economia de tempo -->
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-skyfade rounded-full flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+              <circle cx="12" cy="12" r="9" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Horas de volta</h3>
+          <p class="text-base text-[#1F1F1F] leading-7 mt-3">
+            Pare de garimpar cifra por cifra na internet. Abra a categoria, escolha o canto e pronto.
+          </p>
+        </div>
+
+        <!-- Pasta: organização -->
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-skyfade rounded-full flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Tudo organizado</h3>
+          <p class="text-base text-[#1F1F1F] leading-7 mt-3">
+            Cada cifra no seu lugar: por momento da missa, tempo litúrgico e ocasião especial.
+          </p>
+        </div>
+
+        <!-- Nota musical: repertório -->
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-skyfade rounded-full flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 18V6l10-2v12" />
+              <circle cx="6.5" cy="18" r="2.5" />
+              <circle cx="16.5" cy="16" r="2.5" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Repertório sem fim</h3>
+          <p class="text-base text-[#1F1F1F] leading-7 mt-3">
+            Mais de 1.600 cantos para nunca repetir por falta de opção — do tradicional ao atual.
+          </p>
+        </div>
+
+        <!-- Escudo: segurança na missa -->
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-skyfade rounded-full flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3l8 3v6c0 4.5-3.4 8.4-8 9-4.6-.6-8-4.5-8-9V6l8-3z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Segurança no altar</h3>
+          <p class="text-base text-[#1F1F1F] leading-7 mt-3">
+            Chegue no ensaio e na missa com tudo pronto. Sem improviso, sem susto de última hora.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 3. PROBLEMAS DO PÚBLICO ===================== -->
+  <section class="bg-cream py-20 px-5">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="font-heading font-extrabold uppercase text-[#242424] tracking-tightx
+                 text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
+        Se você toca na igreja, já passou por isso...
+      </h2>
+      <p class="mt-4 text-base sm:text-lg text-[#1F1F1F]/70 italic">
+        Violonista, tecladista, coordenador de ministério ou iniciante que acabou de assumir a música da comunidade — a luta é a mesma.
+      </p>
+
+      <div class="mt-10 space-y-5 text-left">
+        <div class="flex gap-4 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            É quarta-feira à noite, o ensaio é amanhã, e você está há <strong>duas horas pulando de site em site</strong>
+            atrás de uma cifra que preste — cada uma em um tom, com acordes errados ou incompleta.
+          </p>
+        </div>
+        <div class="flex gap-4 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            O padre pede um canto específico para o <strong>Ato Penitencial ou o Salmo do domingo</strong>
+            e você não faz ideia de onde encontrar a cifra — porque quase ninguém publica os cantos da liturgia.
+          </p>
+        </div>
+        <div class="flex gap-4 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            Seu repertório vive no <strong>caderno amassado, em prints perdidos na galeria e em PDFs soltos
+            no WhatsApp do grupo</strong> — e na hora H ninguém acha nada.
+          </p>
+        </div>
+        <div class="flex gap-4 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            Chega um <strong>casamento, batizado ou missa de sétimo dia</strong> e começa tudo de novo:
+            montar repertório do zero, correndo, sem saber se os cantos são adequados para a celebração.
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-10 text-xl sm:text-2xl text-primary font-bold">
+        Servir a Deus com música não deveria ser <span class="text-secondary">tão desgastante</span>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== 4. COMO O PRODUTO RESOLVE ===================== -->
+  <section class="bg-white py-20 px-5">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="text-secondary font-bold uppercase tracking-widest text-sm">A virada de chave</span>
+      <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-4
+                 text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
+        1600 Cifras Católicas
+      </h2>
+      <p class="mt-6 text-xl text-[#1F1F1F] leading-relaxed">
+        Uma biblioteca digital completa com <strong>mais de 1.600 cifras católicas</strong>,
+        separadas por momento da missa, tempo litúrgico e ocasião — para você achar
+        qualquer canto em segundos e tocar com confiança.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-12 text-left">
+        <div class="bg-cream rounded-xl p-6 relative">
+          <span class="absolute -top-4 left-6 bg-primary text-white font-heading font-bold w-9 h-9 rounded-full flex items-center justify-center">1</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-4">Abra a categoria</h3>
+          <p class="text-[#1F1F1F] mt-2 leading-relaxed">
+            Precisa de um canto de Comunhão? De um Glória? De um canto mariano?
+            Vá direto na pasta certa — sem procurar, sem adivinhar.
+          </p>
+        </div>
+        <div class="bg-cream rounded-xl p-6 relative">
+          <span class="absolute -top-4 left-6 bg-primary text-white font-heading font-bold w-9 h-9 rounded-full flex items-center justify-center">2</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-4">Escolha o canto</h3>
+          <p class="text-[#1F1F1F] mt-2 leading-relaxed">
+            Cifras completas, com acordes e letra, prontas para ler no celular,
+            no tablet ou imprimir para a pasta do ministério.
+          </p>
+        </div>
+        <div class="bg-cream rounded-xl p-6 relative">
+          <span class="absolute -top-4 left-6 bg-primary text-white font-heading font-bold w-9 h-9 rounded-full flex items-center justify-center">3</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-4">Toque com paz</h3>
+          <p class="text-[#1F1F1F] mt-2 leading-relaxed">
+            Monte o repertório da missa inteira em minutos e chegue ao altar
+            focado no que importa: servir bem a celebração.
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-12 text-lg text-[#1F1F1F]/80">
+        O tempo que você gastava caçando cifra vira tempo de ensaio, oração e descanso.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== 5. O QUE ESTÁ INCLUSO ===================== -->
+  <section class="bg-surface py-20 px-5">
+    <div class="max-w-5xl mx-auto text-center">
+      <span class="text-secondary font-bold uppercase tracking-widest text-sm">Dentro da biblioteca</span>
+      <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-4
+                 text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
+        Tudo o que você recebe no acesso
+      </h2>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12 text-left">
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="w-12 h-12 bg-skyfade rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 19V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 19a2 2 0 0 0 2 2h13" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-bold text-primary text-lg">+1.600 cifras católicas</h3>
+          <p class="text-sm text-[#1F1F1F]/80 mt-2 leading-relaxed">
+            Uma das maiores bibliotecas de cifras católicas reunidas em um único lugar — cantos litúrgicos, de louvor, marianos e muito mais.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="w-12 h-12 bg-skyfade rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-bold text-primary text-lg">Organização por categorias</h3>
+          <p class="text-sm text-[#1F1F1F]/80 mt-2 leading-relaxed">
+            Pastas separadas por momento da missa, tempo litúrgico e ocasiões especiais. Você nunca mais se perde.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="w-12 h-12 bg-skyfade rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v13" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7 11l5 5 5-5" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 21h16" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-bold text-primary text-lg">Acesso 100% digital</h3>
+          <p class="text-sm text-[#1F1F1F]/80 mt-2 leading-relaxed">
+            Arquivos digitais liberados na hora, direto no seu e-mail. Baixe uma vez e use quando e onde quiser.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="w-12 h-12 bg-skyfade rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <circle cx="11" cy="11" r="7" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.3-4.3" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-bold text-primary text-lg">Pesquisa rápida</h3>
+          <p class="text-sm text-[#1F1F1F]/80 mt-2 leading-relaxed">
+            Encontre qualquer canto em segundos pelo nome ou pela categoria — no ensaio ou minutos antes da missa.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="w-12 h-12 bg-skyfade rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 12a8 8 0 0 1 14-5" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18 3v4h-4" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20 12a8 8 0 0 1-14 5" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 21v-4h4" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-bold text-primary text-lg">Atualizações futuras</h3>
+          <p class="text-sm text-[#1F1F1F]/80 mt-2 leading-relaxed">
+            Quando novas cifras forem adicionadas à biblioteca, você recebe as atualizações sem pagar nada a mais.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="w-12 h-12 bg-skyfade rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="4" width="13" height="10" rx="1.5" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18h5" />
+              <rect x="17" y="7" width="5" height="11" rx="1.5" />
+            </svg>
+          </div>
+          <h3 class="font-heading font-bold text-primary text-lg">Funciona em qualquer tela</h3>
+          <p class="text-sm text-[#1F1F1F]/80 mt-2 leading-relaxed">
+            Compatível com computador, tablet e celular. Leve o repertório inteiro no bolso para o ensaio e a missa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 6. DEMONSTRAÇÃO DO CONTEÚDO ===================== -->
+  <section class="bg-primary py-20 px-5 overflow-hidden">
+    <div class="max-w-5xl mx-auto text-center">
+      <span class="text-gold font-bold uppercase tracking-widest text-sm">Espie por dentro</span>
+      <h2 class="font-heading font-extrabold uppercase text-white tracking-tightx mt-3
+                 text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
+        Uma categoria para cada momento da sua caminhada
+      </h2>
+      <p class="mt-6 text-white/80 text-lg max-w-2xl mx-auto">
+        Da Missa dominical à vigília de Pentecostes, do casamento ao grupo de oração:
+        abra a pasta e o repertório já está montado.
+      </p>
+
+      <!-- Mockup visual: cartão de cifra -->
+      <div class="mt-12 mx-auto w-full max-w-md relative" aria-hidden="true">
+        <div class="absolute inset-0 bg-white/90 rounded-2xl rotate-[-4deg] scale-[0.97]"></div>
+        <div class="absolute inset-0 bg-white/90 rounded-2xl rotate-[3deg] scale-[0.98]"></div>
+        <div class="relative bg-white rounded-2xl shadow-soft p-6 sm:p-8 text-left">
+          <div class="flex items-center justify-between">
+            <span class="bg-skyfade text-primary text-xs font-bold uppercase pill px-3 py-1.5">Entrada</span>
+            <span class="text-xs font-bold text-[#1F1F1F]/50 uppercase tracking-wide">Tom: G</span>
+          </div>
+          <p class="font-heading font-extrabold text-primary text-xl sm:text-2xl mt-4">Canto de Entrada</p>
+          <div class="mt-5 space-y-4">
+            <div>
+              <p class="chord text-secondary font-bold text-sm sm:text-base">G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D/F#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C</p>
+              <p class="text-[#1F1F1F]/80 text-sm sm:text-base">Povo reunido, em festa e oração…</p>
+            </div>
+            <div>
+              <p class="chord text-secondary font-bold text-sm sm:text-base">Am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;G</p>
+              <p class="text-[#1F1F1F]/80 text-sm sm:text-base">Vem, Senhor, habitar no meio de nós…</p>
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-dashed border-primary/15 flex items-center justify-between">
+            <span class="text-xs text-[#1F1F1F]/50">Cifra 1 de 1.600+</span>
+            <span class="text-xs font-bold text-success uppercase">✓ Pronta para tocar</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloco: momentos da missa -->
+      <div class="mt-12 text-left">
+        <p class="text-gold font-bold uppercase tracking-widest text-xs mb-4">Momentos da Santa Missa</p>
+        <div class="flex flex-wrap gap-2 sm:gap-3">
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Missas completas</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Entrada</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Ato Penitencial</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Glória</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Salmo</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Aleluia</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Ofertório</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Santo</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Comunhão</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Final</span>
+        </div>
+      </div>
+
+      <!-- Bloco: tempos litúrgicos e devoções -->
+      <div class="mt-8 text-left">
+        <p class="text-gold font-bold uppercase tracking-widest text-xs mb-4">Tempos litúrgicos e devoções</p>
+        <div class="flex flex-wrap gap-2 sm:gap-3">
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Adoração</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Louvor</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Mariano</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Natal</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Quaresma</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Páscoa</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Pentecostes</span>
+        </div>
+      </div>
+
+      <!-- Bloco: ocasiões especiais -->
+      <div class="mt-8 text-left">
+        <p class="text-gold font-bold uppercase tracking-widest text-xs mb-4">Ocasiões especiais e comunidade</p>
+        <div class="flex flex-wrap gap-2 sm:gap-3">
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Casamento</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Batizado</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Crisma</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Funerais</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Jovens</span>
+          <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Grupo de oração</span>
+        </div>
+      </div>
+
+      <a href="#oferta"
+         class="inline-block mt-12 bg-gold hover:bg-[#D9A93A] text-primary font-bold uppercase
+                rounded-xl px-8 py-4 text-lg transition-colors">
+        QUERO A BIBLIOTECA COMPLETA
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== 7. PARA QUEM É ===================== -->
+  <section class="bg-white py-20 px-5">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="font-heading font-extrabold uppercase text-[#242424] tracking-tightx
+                 text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
+        Este material foi feito para você que...
+      </h2>
+
+      <div class="mt-10 space-y-4 text-left">
+        <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
+          <span class="text-success font-bold text-2xl leading-none" aria-hidden="true">✓</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            <strong>Toca violão na missa</strong> e quer parar de montar repertório na correria da véspera.
+          </p>
+        </div>
+        <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
+          <span class="text-success font-bold text-2xl leading-none" aria-hidden="true">✓</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            <strong>Coordena um ministério de música ou banda católica</strong> e precisa de um acervo único para alinhar todo mundo.
+          </p>
+        </div>
+        <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
+          <span class="text-success font-bold text-2xl leading-none" aria-hidden="true">✓</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            <strong>Serve na liturgia</strong> e quer cantos adequados para cada momento da celebração, sem dúvida na escolha.
+          </p>
+        </div>
+        <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
+          <span class="text-success font-bold text-2xl leading-none" aria-hidden="true">✓</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            <strong>Está começando agora</strong> e quer aprender com um repertório pronto, organizado e testado nas comunidades.
+          </p>
+        </div>
+        <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
+          <span class="text-success font-bold text-2xl leading-none" aria-hidden="true">✓</span>
+          <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+            <strong>Já é experiente</strong> e quer ampliar o repertório com centenas de cantos que você ainda não toca.
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-10 text-xl sm:text-2xl text-primary font-bold">
+        Do primeiro acorde ao músico veterano: se você serve com música, <span class="text-secondary">é para você</span>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== 8. DEPOIMENTOS ===================== -->
+  <!-- ⚠️ ATENÇÃO: depoimentos ilustrativos (fictícios). Substituir por depoimentos reais antes de publicar. -->
+  <section class="bg-surface py-20 px-5">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="font-heading font-extrabold uppercase text-[#242424] tracking-tightx text-center
+                 text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
+        Quem já toca com a biblioteca recomenda
+      </h2>
+      <p class="text-center text-xs text-[#1F1F1F]/40 mt-3 italic">
+        * Depoimentos ilustrativos — substituir pelos depoimentos reais dos seus alunos/clientes.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-12">
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                 alt="Foto de exemplo — depoimento ilustrativo"
+                 class="w-14 h-14 rounded-full object-cover border-2 border-skyfade shadow-md"
+                 width="128" height="128" loading="lazy" decoding="async" />
+            <div>
+              <p class="font-bold text-primary leading-tight">Carlos Eduardo</p>
+              <p class="text-xs text-[#1F1F1F]/60">Violonista • Aparecida, SP</p>
+            </div>
+          </div>
+          <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
+          <p class="text-[#1F1F1F] leading-relaxed">
+            "Eu levava a semana inteira montando o repertório do domingo. Agora abro a pasta
+            do momento da missa e escolho na hora. Sobrou tempo até para ensaiar de verdade."
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg"
+                 alt="Foto de exemplo — depoimento ilustrativo"
+                 class="w-14 h-14 rounded-full object-cover border-2 border-skyfade shadow-md"
+                 width="128" height="128" loading="lazy" decoding="async" />
+            <div>
+              <p class="font-bold text-primary leading-tight">Fernanda Oliveira</p>
+              <p class="text-xs text-[#1F1F1F]/60">Ministério de música • Recife, PE</p>
+            </div>
+          </div>
+          <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
+          <p class="text-[#1F1F1F] leading-relaxed">
+            "Nosso ministério vivia com cada um usando uma versão diferente da mesma música.
+            Com a biblioteca, todo mundo toca pela mesma cifra. Acabou a confusão no ensaio."
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/men/67.jpg"
+                 alt="Foto de exemplo — depoimento ilustrativo"
+                 class="w-14 h-14 rounded-full object-cover border-2 border-skyfade shadow-md"
+                 width="128" height="128" loading="lazy" decoding="async" />
+            <div>
+              <p class="font-bold text-primary leading-tight">Padre Anderson</p>
+              <p class="text-xs text-[#1F1F1F]/60">Pároco • Interior de MG</p>
+            </div>
+          </div>
+          <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
+          <p class="text-[#1F1F1F] leading-relaxed">
+            "Indiquei para os músicos da paróquia. A diferença na liturgia foi visível:
+            cantos adequados para cada momento e uma equipe muito mais segura."
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/women/26.jpg"
+                 alt="Foto de exemplo — depoimento ilustrativo"
+                 class="w-14 h-14 rounded-full object-cover border-2 border-skyfade shadow-md"
+                 width="128" height="128" loading="lazy" decoding="async" />
+            <div>
+              <p class="font-bold text-primary leading-tight">Juliana Castro</p>
+              <p class="text-xs text-[#1F1F1F]/60">Iniciante no violão • Goiânia, GO</p>
+            </div>
+          </div>
+          <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
+          <p class="text-[#1F1F1F] leading-relaxed">
+            "Comecei a tocar há pouco tempo e me perdia procurando cifra confiável.
+            Ter tudo organizado por categoria me deu coragem de assumir a música do grupo de jovens."
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/men/51.jpg"
+                 alt="Foto de exemplo — depoimento ilustrativo"
+                 class="w-14 h-14 rounded-full object-cover border-2 border-skyfade shadow-md"
+                 width="128" height="128" loading="lazy" decoding="async" />
+            <div>
+              <p class="font-bold text-primary leading-tight">Roberto Lima</p>
+              <p class="text-xs text-[#1F1F1F]/60">Banda católica • Curitiba, PR</p>
+            </div>
+          </div>
+          <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
+          <p class="text-[#1F1F1F] leading-relaxed">
+            "Tocamos em casamentos e retiros. As categorias de ocasiões especiais
+            nos salvaram várias vezes — repertório pronto até para missa de crisma."
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg"
+                 alt="Foto de exemplo — depoimento ilustrativo"
+                 class="w-14 h-14 rounded-full object-cover border-2 border-skyfade shadow-md"
+                 width="128" height="128" loading="lazy" decoding="async" />
+            <div>
+              <p class="font-bold text-primary leading-tight">Marta Regina</p>
+              <p class="text-xs text-[#1F1F1F]/60">Grupo de oração • Fortaleza, CE</p>
+            </div>
+          </div>
+          <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
+          <p class="text-[#1F1F1F] leading-relaxed">
+            "Uso no tablet durante o grupo de oração. Pesquiso o canto na hora
+            e nunca mais travei no meio de um louvor por falta de cifra."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 9. GARANTIA ===================== -->
+  <section class="bg-white py-20 px-5">
+    <div class="max-w-3xl mx-auto bg-cream rounded-2xl p-8 sm:p-12 shadow-card text-center">
+      <div class="w-24 h-24 mx-auto bg-success/10 rounded-full flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3l8 3v6c0 4.5-3.4 8.4-8 9-4.6-.6-8-4.5-8-9V6l8-3z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+        </svg>
+      </div>
+      <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-6
+                 text-[26px] sm:text-[34px] md:text-[40px] leading-tight">
+        Risco zero: 7 dias de garantia total
+      </h2>
+      <p class="mt-6 text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
+        Entre, baixe as cifras, use no ensaio e na missa do domingo. Se dentro de
+        <strong>7 dias</strong> você achar que o material não facilitou a sua vida,
+        devolvemos <strong>100% do valor</strong> — sem perguntas, sem burocracia,
+        direto pela plataforma.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== 10. OFERTA ===================== -->
+  <section id="oferta" class="bg-skyfade py-20 px-5">
+    <div class="max-w-2xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="bg-secondary text-white pill px-4 py-2 text-sm font-bold uppercase">
+          Condição especial de lançamento
+        </span>
+        <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-6
+                   text-[30px] sm:text-[38px] md:text-[46px] leading-[1.05]">
+          1.600 cifras por menos que uma corda de violão
+        </h2>
+
+        <!-- Selos de destaque -->
+        <div class="flex flex-wrap justify-center gap-2 sm:gap-3 mt-8">
+          <span class="inline-flex items-center gap-1.5 bg-yellow-100 text-yellow-900 border border-yellow-300 pill px-3 py-1.5 text-xs sm:text-sm font-bold uppercase">
+            <span class="text-yellow-500" aria-hidden="true">⚡</span> Acesso imediato
+          </span>
+          <span class="inline-flex items-center gap-1.5 bg-red-100 text-red-800 border border-red-300 pill px-3 py-1.5 text-xs sm:text-sm font-bold uppercase">
+            <span aria-hidden="true">🎶</span> +1.600 cifras
+          </span>
+          <span class="inline-flex items-center gap-1.5 bg-yellow-100 text-yellow-900 border border-yellow-300 pill px-3 py-1.5 text-xs sm:text-sm font-bold uppercase">
+            <span class="text-yellow-500" aria-hidden="true">📱</span> Celular, tablet e PC
+          </span>
+          <span class="inline-flex items-center gap-1.5 bg-gray-900 text-white pill px-3 py-1.5 text-xs sm:text-sm font-bold uppercase">
+            <span aria-hidden="true">⏰</span> Preço de lançamento
+          </span>
+        </div>
+      </div>
+
+      <!-- CARD DE PREÇO -->
+      <div class="bg-white border-4 border-success rounded-2xl p-8 sm:p-10 shadow-card relative">
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-success text-white px-5 py-1.5 rounded-full text-sm font-bold uppercase whitespace-nowrap">
+          ★ Biblioteca completa
+        </div>
+
+        <!-- Capa do produto no card da oferta -->
+        <div class="mt-4 max-w-sm mx-auto">
+          <img src="capa-768.jpg"
+               alt="1600 Cifras Católicas — pacote completo"
+               width="768" height="512"
+               class="w-full h-auto rounded-xl shadow-card"
+               loading="lazy" decoding="async" />
+        </div>
+
+        <h3 class="font-heading font-extrabold text-primary text-center text-2xl sm:text-3xl mt-6">
+          1600 Cifras Católicas
+        </h3>
+        <p class="text-center text-[#1F1F1F]/70 mt-2">Todo o repertório da sua caminhada em um único acesso</p>
+
+        <ul class="mt-8 space-y-3 text-[#1F1F1F]">
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Mais de 1.600 cifras católicas em arquivos digitais</li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Organização completa por momento da missa e categoria</li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Cantos para toda a liturgia: da Entrada ao canto Final</li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Tempos litúrgicos: Natal, Quaresma, Páscoa e Pentecostes</li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Ocasiões especiais: casamento, batizado, crisma e funerais</li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Compatível com computador, tablet e celular</li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Atualizações futuras incluídas, sem custo extra</li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Acesso imediato após a confirmação do pagamento</li>
+        </ul>
+
+        <div class="mt-8 text-center border-t border-dashed border-primary/20 pt-6">
+          <p class="text-[#1F1F1F]/60 line-through text-lg">De R$ 97,00</p>
+          <p class="text-sm uppercase font-bold text-secondary mt-1">Oferta de lançamento</p>
+          <p class="font-heading font-extrabold text-primary text-5xl sm:text-6xl mt-1">
+            R$ 19<span class="text-3xl">,90</span>
+          </p>
+          <p class="text-sm text-[#1F1F1F]/70 mt-1">Pagamento único · sem mensalidade</p>
+
+          <!-- Formas de pagamento -->
+          <div class="mt-6 bg-gradient-to-br from-cream to-skyfade rounded-2xl p-5 border-2 border-primary/20 shadow-sm">
+            <p class="text-sm uppercase font-extrabold tracking-widest text-primary mb-4 text-center">
+              ✓ Pague do jeito que preferir
+            </p>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="bg-white rounded-xl p-4 shadow-card text-center">
+                <p class="font-heading font-extrabold text-primary text-xl sm:text-2xl leading-none">PIX</p>
+                <p class="text-xs font-bold text-[#1F1F1F]/60 mt-1 tracking-wide">Aprovação na hora</p>
+              </div>
+              <div class="bg-white rounded-xl p-4 shadow-card text-center">
+                <p class="font-heading font-extrabold text-primary text-xl sm:text-2xl leading-none">Cartão</p>
+                <p class="text-xs font-bold text-[#1F1F1F]/60 mt-1 tracking-wide">Crédito ou débito</p>
+              </div>
+            </div>
+            <p class="text-xs text-[#1F1F1F]/60 mt-4 italic text-center">
+              💳 Pagamento processado com segurança pela Hotmart
+            </p>
+          </div>
+        </div>
+
+        <!-- TODO: substituir href pelo link real do checkout Hotmart -->
+        <a id="btn-checkout-principal"
+           href="#oferta"
+           class="cta-pulse block text-center mt-8 bg-success hover:bg-successdark text-white font-bold uppercase
+                  rounded-xl px-6 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
+          QUERO MINHAS 1.600 CIFRAS
+        </a>
+
+        <div class="flex flex-wrap items-center justify-center gap-3 mt-6 text-sm text-[#1F1F1F]/70">
+          <span class="inline-flex items-center gap-1"><span aria-hidden="true">🔒</span> Compra segura</span>
+          <span>•</span>
+          <span class="inline-flex items-center gap-1"><span class="text-yellow-500" aria-hidden="true">⚡</span> Acesso imediato</span>
+          <span>•</span>
+          <span class="inline-flex items-center gap-1"><span aria-hidden="true">🛡️</span> 7 dias de garantia</span>
+        </div>
+
+        <div class="mt-6 flex items-center justify-center gap-2 text-sm text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 7l9 6 9-6" />
+          </svg>
+          <span class="font-semibold">Você recebe tudo na hora no seu e-mail</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 11. BÔNUS (estrutura para preencher) ===================== -->
+  <!-- ⚠️ ATENÇÃO: seção com placeholders. Preencher nome, descrição e valor de cada bônus. -->
+  <section class="bg-cream py-20 px-5">
+    <div class="max-w-5xl mx-auto text-center">
+      <span class="text-secondary font-bold uppercase tracking-widest text-sm">E não para por aí</span>
+      <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-4
+                 text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
+        Comprando hoje, você também leva 5 bônus exclusivos
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-6 mt-12 text-left">
+        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary">
+          <span class="text-xs font-bold text-secondary uppercase">Bônus 01</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-2">Livro de Cantos para Coral</h3>
+          <p class="text-[#1F1F1F] mt-2">Material completo com <strong>partituras, letras e cifras</strong> para elevar o repertório de corais, grupos de canto e ministérios de música. Tudo em formato digital, pronto para consultar no ensaio.</p>
+          <ul class="mt-3 space-y-1 text-sm text-[#1F1F1F]/80">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Partituras</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Letras</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Cifras</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Material digital para consulta</li>
+          </ul>
+          <p class="text-success font-bold mt-3">Incluso grátis</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary">
+          <span class="text-xs font-bold text-secondary uppercase">Bônus 02</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-2">Livro de Cantos Cifrados</h3>
+          <p class="text-[#1F1F1F] mt-2">Um livro digital com <strong>555 páginas</strong> de cantos cifrados para expandir ainda mais o seu repertório — sempre que precisar de uma música a mais, ela já está com você.</p>
+          <ul class="mt-3 space-y-1 text-sm text-[#1F1F1F]/80">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> 555 páginas</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Cantos cifrados</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Repertório complementar</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Consulta pelo celular, tablet ou computador</li>
+          </ul>
+          <p class="text-success font-bold mt-3">Incluso grátis</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary md:col-span-2">
+          <span class="text-xs font-bold text-secondary uppercase">Bônus 03</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-2">Hinário Litúrgico</h3>
+          <p class="text-[#1F1F1F] mt-2">Coletânea de <strong>cantos para celebrações e momentos litúrgicos</strong> — o apoio ideal para músicos, cantores e ministérios na hora de preparar o repertório de cada celebração.</p>
+          <ul class="mt-3 space-y-1 text-sm text-[#1F1F1F]/80">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Cantos para celebrações</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Material de apoio para músicos</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Consulta digital</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Mais opções para a preparação do repertório</li>
+          </ul>
+          <p class="text-success font-bold mt-3">Incluso grátis</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary md:col-span-2">
+          <span class="text-xs font-bold text-secondary uppercase">Bônus 04</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-2">Livro de Cifras — Louvor + Oração</h3>
+          <p class="text-[#1F1F1F] mt-2">Uma coletânea dedicada aos <strong>momentos de louvor e oração</strong> — cantos cifrados para animar o grupo de oração, a adoração e os encontros da sua comunidade, além da Santa Missa.</p>
+          <ul class="mt-3 space-y-1 text-sm text-[#1F1F1F]/80">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Cifras de louvor</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Cantos para momentos de oração</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Ideal para grupos de oração e adoração</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Consulta pelo celular, tablet ou computador</li>
+          </ul>
+          <p class="text-success font-bold mt-3">Incluso grátis</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary md:col-span-2">
+          <span class="text-xs font-bold text-secondary uppercase">Bônus 05</span>
+          <h3 class="font-heading font-bold text-primary text-xl mt-2">Coletânea de Cifras Gospel</h3>
+          <p class="text-[#1F1F1F] mt-2">Um pacote extra com <strong>cifras de música cristã contemporânea</strong> para variar o repertório em retiros, encontros de jovens e momentos de louvor — mais versatilidade para você tocar em qualquer ocasião.</p>
+          <ul class="mt-3 space-y-1 text-sm text-[#1F1F1F]/80">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Cifras gospel</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Música cristã contemporânea</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Ideal para retiros e encontros de jovens</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Consulta pelo celular, tablet ou computador</li>
+          </ul>
+          <p class="text-success font-bold mt-3">Incluso grátis</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 12. FAQ ===================== -->
+  <section class="bg-white py-20 px-5">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx text-center
+                 text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
+        Perguntas frequentes
+      </h2>
+
+      <div class="mt-10 space-y-4">
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Sou iniciante no violão. Vou conseguir usar as cifras?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Sim. As cifras seguem o formato tradicional (acordes sobre a letra), o mesmo que você
+            encontra em qualquer site ou caderno de música. Se você já sabe ler uma cifra simples,
+            consegue usar tudo desde o primeiro dia — e a organização por categoria facilita
+            muito para quem está começando a montar repertório.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Funciona no meu celular?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Funciona. O material é compatível com celular, tablet e computador — Android, iPhone,
+            Windows ou Mac. Você pode levar o repertório inteiro no bolso para o ensaio e a missa.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Preciso de internet para acessar as cifras?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Só para baixar. Depois de salvar os arquivos no seu dispositivo, você pode
+            consultar as cifras mesmo sem conexão — ideal para igrejas e salões onde o sinal é fraco.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Como recebo o material depois da compra?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            O acesso é liberado <strong>imediatamente</strong> após a confirmação do pagamento.
+            Você recebe no seu e-mail o link para acessar todos os arquivos, já organizados por categoria.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            As cifras servem para violão, teclado e outros instrumentos?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Sim. As cifras usam o sistema universal de acordes (C, D, Em, G7...), que serve para
+            violão, guitarra, teclado, cavaquinho, ukulele e qualquer instrumento harmônico.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Como as 1.600 cifras estão organizadas?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Por categorias que seguem a lógica de quem toca na igreja: momentos da missa (Entrada,
+            Ato Penitencial, Glória, Salmo, Aleluia, Ofertório, Santo, Comunhão, Final), tempos
+            litúrgicos (Natal, Quaresma, Páscoa, Pentecostes), devoções (Adoração, Louvor, Mariano)
+            e ocasiões especiais (casamento, batizado, crisma, funerais, jovens, grupo de oração).
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Posso imprimir as cifras para a pasta do ministério?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Pode. Os arquivos são digitais e você pode imprimir as cifras que quiser para
+            uso do seu ministério, montar sua pasta de repertório ou levar para o ensaio.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Vou receber as atualizações da biblioteca?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Sim. Sempre que novas cifras forem adicionadas à biblioteca, você recebe as
+            atualizações no mesmo acesso, sem pagar nada a mais por isso.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            O acesso expira? Existe mensalidade?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Não. O pagamento é único — você paga uma vez e o material é seu.
+            Sem mensalidade, sem assinatura, sem cobrança surpresa.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Quais formas de pagamento vocês aceitam?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            O pagamento é processado pela Hotmart, uma das maiores plataformas de produtos
+            digitais do Brasil. Você pode pagar com PIX (aprovação na hora), cartão de crédito,
+            cartão de débito ou boleto.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            E se eu comprar e não gostar?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Você tem 7 dias de garantia incondicional. Se o material não atender às suas
+            expectativas, basta pedir o reembolso dentro do prazo e você recebe 100% do valor
+            de volta, sem precisar justificar.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Posso usar as cifras no ministério da minha paróquia?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            Sim, o material foi pensado exatamente para isso: servir você e o seu ministério
+            nas celebrações. O acesso à biblioteca é individual e intransferível, mas as cifras
+            impressas podem ser usadas livremente nos ensaios e missas da sua comunidade.
+          </p>
+        </details>
+
+        <details class="bg-cream rounded-xl p-5 shadow-card group">
+          <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
+            Esse preço promocional vai durar?
+            <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
+          </summary>
+          <p class="mt-3 text-[#1F1F1F] leading-relaxed">
+            É uma condição especial de lançamento. Quando esta fase terminar, o valor
+            volta ao preço cheio. Garantindo hoje, você trava o menor preço e ainda
+            leva todas as atualizações futuras.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 13. CTA FINAL ===================== -->
+  <section class="bg-primary py-20 px-5 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="font-heading font-extrabold uppercase text-white tracking-tightx
+                 text-[28px] sm:text-[38px] md:text-[48px] leading-[1.05]">
+        Domingo que vem tem missa. Como você quer chegar nela?
+      </h2>
+      <p class="mt-8 text-white/80 text-lg sm:text-xl leading-relaxed">
+        <strong>Do jeito de sempre:</strong> véspera corrida, abas abertas no navegador,
+        cifra pela metade e aquele frio na barriga na hora do Salmo.
+      </p>
+      <p class="mt-4 text-white/80 text-lg sm:text-xl leading-relaxed">
+        <strong>Ou do jeito novo:</strong> repertório montado em minutos, mais de
+        <span class="text-gold font-bold">1.600 cifras organizadas</span> no seu celular
+        e a tranquilidade de quem está ali só para servir e louvar.
+      </p>
+
+      <a id="btn-cta-final" href="#oferta"
+         class="cta-pulse inline-block mt-10 bg-success hover:bg-successdark text-white font-bold uppercase
+                rounded-xl px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
+        QUERO TOCAR COM TUDO ORGANIZADO
+      </a>
+
+      <p class="mt-5 text-white/60 text-sm">
+        Pagamento 100% seguro • Acesso imediato • 7 dias de garantia
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-[#0A1624] text-white/70 py-10 px-5 text-center text-sm">
+    <p>© <span id="ano"></span> 1600 Cifras Católicas. Todos os direitos reservados.</p>
+    <p class="mt-2">
+      Este site não faz parte do Facebook, Instagram ou Google. Os depoimentos refletem
+      experiências individuais e não garantem resultados.
+    </p>
+    <p class="mt-4 space-x-3">
+      <a href="#" class="hover:text-white">Termos de uso</a>
+      <span>•</span>
+      <a href="#" class="hover:text-white">Política de privacidade</a>
+      <span>•</span>
+      <a href="#" class="hover:text-white">Suporte</a>
+    </p>
+  </footer>
+
+  <script>document.getElementById('ano').textContent=new Date().getFullYear();</script>
+</body>
+</html>

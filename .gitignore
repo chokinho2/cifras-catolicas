@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (caso adicione npm depois)
+node_modules/
+
+# Vídeos pesados (descomente se quiser subir)
+*.mp4
+
+# Ferramentas locais
+.claude/

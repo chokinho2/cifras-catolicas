@@ -1,0 +1,24 @@
+{
+  "name": "projeto_moldes-de-costura_hotmart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChokiTheProo/dibujos-catolicos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ChokiTheProo/dibujos-catolicos/issues"
+  },
+  "homepage": "https://github.com/ChokiTheProo/dibujos-catolicos#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
