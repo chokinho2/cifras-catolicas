@@ -40,6 +40,8 @@
     }
     .pill { border-radius: 180px; }
     .chord { font-family: 'Inter', monospace; letter-spacing: 0.06em; }
+    /* Linha de letra em prévia (borrada) — evita exibir a letra completa da música */
+    .lyric-locked { height: 11px; border-radius: 4px; background: linear-gradient(90deg, rgba(18,43,69,0.18), rgba(18,43,69,0.10)); }
   </style>
 
   <!--
@@ -412,8 +414,94 @@
         </div>
       </div>
 
+      <!-- Prévia real do material -->
+      <div class="mt-14">
+        <p class="text-gold font-bold uppercase tracking-widest text-xs mb-2">Amostra do acervo</p>
+        <p class="text-white/80 text-base max-w-2xl mx-auto mb-8">
+          Alguns dos cânticos que já estão organizados esperando por você — clássicos que
+          todo ministério toca na Santa Missa e nos encontros de oração.
+        </p>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 text-left">
+          <!-- Card 1 -->
+          <div class="bg-white rounded-2xl shadow-soft p-6">
+            <div class="flex items-center justify-between mb-1">
+              <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Louvor</span>
+              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+            </div>
+            <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Imagem e Semelhança</h3>
+            <p class="text-xs text-[#1F1F1F]/55 mb-4">Walmir Alencar</p>
+            <p class="chord text-secondary font-bold text-sm">E&nbsp;&nbsp;&nbsp;&nbsp;A/E&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;A/E</p>
+            <div class="lyric-locked mt-1 w-11/12"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">C#m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A</p>
+            <div class="lyric-locked mt-1 w-3/4"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">E/G#&nbsp;&nbsp;F#m&nbsp;&nbsp;B/D#&nbsp;&nbsp;B7</p>
+            <div class="lyric-locked mt-1 w-5/6"></div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white rounded-2xl shadow-soft p-6">
+            <div class="flex items-center justify-between mb-1">
+              <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Entrada</span>
+              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+            </div>
+            <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Oração da Manhã</h3>
+            <p class="text-xs text-[#1F1F1F]/55 mb-4">Canto de abertura</p>
+            <p class="chord text-secondary font-bold text-sm">D&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;A7</p>
+            <div class="lyric-locked mt-1 w-full"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">D&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;A7&nbsp;&nbsp;D</p>
+            <div class="lyric-locked mt-1 w-5/6"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">D&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;&nbsp;&nbsp;A7</p>
+            <div class="lyric-locked mt-1 w-2/3"></div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white rounded-2xl shadow-soft p-6">
+            <div class="flex items-center justify-between mb-1">
+              <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Jovens</span>
+              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+            </div>
+            <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Nova Aurora</h3>
+            <p class="text-xs text-[#1F1F1F]/55 mb-4">Canto de comunidade</p>
+            <p class="chord text-secondary font-bold text-sm">A&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;A</p>
+            <div class="lyric-locked mt-1 w-11/12"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;A7</p>
+            <div class="lyric-locked mt-1 w-3/4"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;A</p>
+            <div class="lyric-locked mt-1 w-5/6"></div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white rounded-2xl shadow-soft p-6">
+            <div class="flex items-center justify-between mb-1">
+              <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Espírito Santo</span>
+              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+            </div>
+            <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Batiza-me</h3>
+            <p class="text-xs text-[#1F1F1F]/55 mb-4">Canto de adoração</p>
+            <p class="chord text-secondary font-bold text-sm">A&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;F#m</p>
+            <div class="lyric-locked mt-1 w-5/6"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">D&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;Bm&nbsp;&nbsp;&nbsp;D</p>
+            <div class="lyric-locked mt-1 w-3/4"></div>
+            <p class="chord text-secondary font-bold text-sm mt-3">A&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;C#&nbsp;&nbsp;&nbsp;F#m</p>
+            <div class="lyric-locked mt-1 w-11/12"></div>
+          </div>
+
+          <!-- Card 5: teaser de volume -->
+          <div class="bg-white/10 border-2 border-dashed border-white/30 rounded-2xl p-6 flex flex-col items-center justify-center text-center sm:col-span-2 lg:col-span-1">
+            <span class="font-heading font-extrabold text-gold text-3xl">+1.600</span>
+            <p class="text-white font-semibold mt-1">cânticos como estes</p>
+            <p class="text-white/70 text-sm mt-2">organizados e prontos para tocar em qualquer celebração</p>
+          </div>
+        </div>
+
+        <p class="text-white/50 text-xs italic mt-6">
+          As letras aparecem completas dentro do material. Aqui mostramos apenas título e cifra como amostra.
+        </p>
+      </div>
+
       <!-- Bloco: momentos da missa -->
-      <div class="mt-12 text-left">
+      <div class="mt-16 text-left">
         <p class="text-gold font-bold uppercase tracking-widest text-xs mb-4">Momentos da Santa Missa</p>
         <div class="flex flex-wrap gap-2 sm:gap-3">
           <span class="bg-white/10 border border-white/25 text-white pill px-4 py-2 text-sm sm:text-base font-semibold">Missas completas</span>
