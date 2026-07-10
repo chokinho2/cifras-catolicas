@@ -21,3 +21,6 @@ node_modules/
 
 # Ferramentas locais
 .claude/
+
+# Arquivo de referência (não publicar)
+referencia-bonus.jpg

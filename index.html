@@ -14,13 +14,18 @@
   <link rel="dns-prefetch" href="https://randomuser.me" />
 
   <!-- Preload LCP (capa do hero) -->
-  <link rel="preload" as="image"
-        imagesrcset="capa-768.jpg 768w, capa.jpg 1536w"
+  <link rel="preload" as="image" type="image/webp"
+        imagesrcset="capa-768.webp 768w, capa.webp 1400w"
         imagesizes="(max-width: 640px) 100vw, 672px"
         fetchpriority="high" />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Fonts (carregamento não-bloqueante) -->
+  <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Manrope:wght@400;600;700&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  </noscript>
 
   <link rel="stylesheet" href="styles.css" />
   <style>
@@ -87,13 +92,16 @@
 
     <!-- Capa do produto -->
     <div class="mt-10 w-full max-w-2xl">
-      <img src="capa.jpg"
-           srcset="capa-768.jpg 768w, capa.jpg 1536w"
-           sizes="(max-width: 640px) 100vw, 672px"
-           alt="1600 Cifras Católicas — para todos os momentos da Santa Missa e além"
-           width="1536" height="1024"
-           class="w-full h-auto rounded-2xl shadow-soft"
-           loading="eager" fetchpriority="high" decoding="async" />
+      <picture>
+        <source type="image/webp" srcset="capa-768.webp 768w, capa.webp 1400w" sizes="(max-width: 640px) 100vw, 672px" />
+        <img src="capa.jpg"
+             srcset="capa-768.jpg 768w, capa.jpg 1536w"
+             sizes="(max-width: 640px) 100vw, 672px"
+             alt="1600 Cifras Católicas — para todos os momentos da Santa Missa e além"
+             width="1536" height="1024"
+             class="w-full h-auto rounded-2xl shadow-soft"
+             loading="eager" fetchpriority="high" decoding="async" />
+      </picture>
     </div>
 
     <a href="#oferta"
@@ -686,11 +694,14 @@
 
         <!-- Capa do produto no card da oferta -->
         <div class="mt-4 max-w-sm mx-auto">
-          <img src="capa-768.jpg"
-               alt="1600 Cifras Católicas — pacote completo"
-               width="768" height="512"
-               class="w-full h-auto rounded-xl shadow-card"
-               loading="lazy" decoding="async" />
+          <picture>
+            <source type="image/webp" srcset="capa-768.webp" />
+            <img src="capa-768.jpg"
+                 alt="1600 Cifras Católicas — pacote completo"
+                 width="768" height="512"
+                 class="w-full h-auto rounded-xl shadow-card"
+                 loading="lazy" decoding="async" />
+          </picture>
         </div>
 
         <h3 class="font-heading font-extrabold text-primary text-center text-2xl sm:text-3xl mt-6">
