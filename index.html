@@ -1153,5 +1153,23 @@
   </footer>
 
   <script>document.getElementById('ano').textContent=new Date().getFullYear();</script>
+
+  <!-- Meta Pixel: dispara InitiateCheckout ao clicar no botão de compra -->
+  <script>
+    (function () {
+      var btn = document.getElementById('btn-checkout-principal');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          if (typeof fbq === 'function') {
+            fbq('track', 'InitiateCheckout', {
+              content_name: '1600 Cifras Católicas',
+              currency: 'BRL',
+              value: 17.90
+            });
+          }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
