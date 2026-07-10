@@ -9,8 +9,8 @@
   <!-- Resource hints (performance) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://pay.hotmart.com" />
-  <link rel="dns-prefetch" href="https://pay.hotmart.com" />
+  <link rel="preconnect" href="https://pay.wiapy.com" />
+  <link rel="dns-prefetch" href="https://pay.wiapy.com" />
   <link rel="dns-prefetch" href="https://randomuser.me" />
 
   <!-- Preload LCP (capa do hero) -->
@@ -40,9 +40,7 @@
   <!--
     ============================================================
     TODO ANTES DE PUBLICAR:
-    1. UTMify: inserir o pixelId do NOVO produto
-    2. Checkout: substituir o href="#oferta" do botão principal
-       pelo link real do checkout Hotmart deste produto
+    1. UTMify: inserir o pixelId do NOVO produto (opcional)
     ============================================================
   -->
 
@@ -715,7 +713,7 @@
           <p class="text-[#1F1F1F]/60 line-through text-lg">De R$ 97,00</p>
           <p class="text-sm uppercase font-bold text-secondary mt-1">Oferta de lançamento</p>
           <p class="font-heading font-extrabold text-primary text-5xl sm:text-6xl mt-1">
-            R$ 19<span class="text-3xl">,90</span>
+            R$ 17<span class="text-3xl">,90</span>
           </p>
           <p class="text-sm text-[#1F1F1F]/70 mt-1">Pagamento único · sem mensalidade</p>
 
@@ -735,14 +733,14 @@
               </div>
             </div>
             <p class="text-xs text-[#1F1F1F]/60 mt-4 italic text-center">
-              💳 Pagamento processado com segurança pela Hotmart
+              💳 Pagamento processado em ambiente 100% seguro
             </p>
           </div>
         </div>
 
-        <!-- TODO: substituir href pelo link real do checkout Hotmart -->
         <a id="btn-checkout-principal"
-           href="#oferta"
+           href="https://pay.wiapy.com/qudft8JugYlf"
+           target="_blank" rel="noopener"
            class="cta-pulse block text-center mt-8 bg-success hover:bg-successdark text-white font-bold uppercase
                   rounded-xl px-6 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
           QUERO MINHAS 1.600 CIFRAS
@@ -960,9 +958,8 @@
             <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
           </summary>
           <p class="mt-3 text-[#1F1F1F] leading-relaxed">
-            O pagamento é processado pela Hotmart, uma das maiores plataformas de produtos
-            digitais do Brasil. Você pode pagar com PIX (aprovação na hora), cartão de crédito,
-            cartão de débito ou boleto.
+            O pagamento é processado em um ambiente de checkout 100% seguro. Você pode
+            pagar com PIX (aprovação na hora), cartão de crédito, cartão de débito ou boleto.
           </p>
         </details>
 
