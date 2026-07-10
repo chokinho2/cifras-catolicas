@@ -40,8 +40,14 @@
     }
     .pill { border-radius: 180px; }
     .chord { font-family: 'Inter', monospace; letter-spacing: 0.06em; }
-    /* Linha de letra em prévia (borrada) — evita exibir a letra completa da música */
-    .lyric-locked { height: 11px; border-radius: 4px; background: linear-gradient(90deg, rgba(18,43,69,0.18), rgba(18,43,69,0.10)); }
+    /* Linha de letra em prévia — sugere o texto do canto sem reproduzir a letra protegida */
+    .lyric-locked {
+      height: 10px; border-radius: 3px;
+      background: repeating-linear-gradient(90deg,
+        rgba(18,43,69,0.20) 0, rgba(18,43,69,0.20) 22px,
+        transparent 22px, transparent 30px);
+      filter: blur(1.2px);
+    }
   </style>
 
   <!--
@@ -423,9 +429,16 @@
       <!-- Prévia real do material -->
       <div class="mt-14">
         <p class="text-gold font-bold uppercase tracking-widest text-xs mb-2">Amostra do acervo</p>
-        <p class="text-white/80 text-base max-w-2xl mx-auto mb-8">
+        <p class="text-white/80 text-base max-w-2xl mx-auto mb-4">
           Alguns dos cânticos que já estão organizados esperando por você — clássicos que
           todo ministério toca na Santa Missa e nos encontros de oração.
+        </p>
+        <p class="inline-flex items-center gap-2 text-gold font-semibold text-sm mb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <rect x="9" y="3" width="6" height="11" rx="3" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 11a6 6 0 0 0 12 0M12 17v4M9 21h6" />
+          </svg>
+          Cada cifra vem com a letra completa — para tocar <em>e</em> cantar
         </p>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 text-left">
@@ -433,7 +446,7 @@
           <div class="bg-white rounded-2xl shadow-soft p-6">
             <div class="flex items-center justify-between mb-1">
               <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Louvor</span>
-              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+              <span class="text-[11px] font-bold text-secondary uppercase tracking-wide">Cifra + Letra</span>
             </div>
             <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Imagem e Semelhança</h3>
             <p class="text-xs text-[#1F1F1F]/55 mb-4">Walmir Alencar</p>
@@ -449,7 +462,7 @@
           <div class="bg-white rounded-2xl shadow-soft p-6">
             <div class="flex items-center justify-between mb-1">
               <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Entrada</span>
-              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+              <span class="text-[11px] font-bold text-secondary uppercase tracking-wide">Cifra + Letra</span>
             </div>
             <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Oração da Manhã</h3>
             <p class="text-xs text-[#1F1F1F]/55 mb-4">Canto de abertura</p>
@@ -465,7 +478,7 @@
           <div class="bg-white rounded-2xl shadow-soft p-6">
             <div class="flex items-center justify-between mb-1">
               <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Jovens</span>
-              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+              <span class="text-[11px] font-bold text-secondary uppercase tracking-wide">Cifra + Letra</span>
             </div>
             <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Nova Aurora</h3>
             <p class="text-xs text-[#1F1F1F]/55 mb-4">Canto de comunidade</p>
@@ -481,7 +494,7 @@
           <div class="bg-white rounded-2xl shadow-soft p-6">
             <div class="flex items-center justify-between mb-1">
               <span class="bg-skyfade text-primary text-[11px] font-bold uppercase pill px-3 py-1">Espírito Santo</span>
-              <span class="text-[11px] font-bold text-[#1F1F1F]/45 uppercase tracking-wide">Cifrado</span>
+              <span class="text-[11px] font-bold text-secondary uppercase tracking-wide">Cifra + Letra</span>
             </div>
             <h3 class="font-heading font-extrabold text-primary text-lg mt-2">Batiza-me</h3>
             <p class="text-xs text-[#1F1F1F]/55 mb-4">Canto de adoração</p>
@@ -501,8 +514,9 @@
           </div>
         </div>
 
-        <p class="text-white/50 text-xs italic mt-6">
-          As letras aparecem completas dentro do material. Aqui mostramos apenas título e cifra como amostra.
+        <p class="text-white/50 text-xs italic mt-6 max-w-2xl mx-auto">
+          Cada canto traz os acordes acima da letra completa — do jeito certo para tocar e acompanhar
+          cantando. Nesta amostra mostramos só os acordes; a letra na íntegra fica dentro do material.
         </p>
       </div>
 
